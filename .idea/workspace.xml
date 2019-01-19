@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="957f2b22-0510-41d2-8e25-eb821f366be3" name="Default Changelist" comment="" />
+    <list default="true" id="957f2b22-0510-41d2-8e25-eb821f366be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy/nginx_employees_api.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/server_setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/supervisor_employees_api.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,16 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/employees/employee/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/nginx_employees_api.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="204" column="40" lean-forward="true" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#778#803#0" />
-                <element signature="e#1944#2223#0" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/supervisor_employees_api.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy/server_setup.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -74,6 +93,10 @@
         <option value="$PROJECT_DIR$/employees/employee/urls.py" />
         <option value="$PROJECT_DIR$/employees/employee/serializers.py" />
         <option value="$PROJECT_DIR$/employees/employee/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/deploy/nginx_employees_api.conf" />
+        <option value="$PROJECT_DIR$/deploy/supervisor_employees-api.conf" />
+        <option value="$PROJECT_DIR$/deploy/server_setup.sh" />
       </list>
     </option>
   </component>
@@ -99,19 +122,7 @@
             <path>
               <item name="employee-management-rest-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="employee-management-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employee-management-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employee-management-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employee-management-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employee-management-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
-              <item name="employees" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,8 +200,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,7 +213,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5217391" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31239936" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.5797101" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -227,6 +239,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Search filter and configure hasher in setting" />
@@ -327,20 +342,6 @@
     <entry file="file://$PROJECT_DIR$/employees/employees/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2305">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employees/employee/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -368,15 +369,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/supervisor_employees_api.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/employees/employee/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
-          <caret line="204" column="40" lean-forward="true" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="40" />
+          <caret line="204" column="40" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="40" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#778#803#0" />
             <element signature="e#1944#2223#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/nginx_employees_api.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/server_setup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

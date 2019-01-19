@@ -162,3 +162,4 @@ xlwings==0.10.4
 xlwt==1.2.0
 youtube-dl==2018.11.18
 zict==0.1.2
+uWSGI==2.0.15
